@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/profile.git/static/css/main.4f5ffc70.css",
-    "main.js": "/profile.git/static/js/main.a1ede5fe.js",
-    "static/js/787.e6fe0fcf.chunk.js": "/profile.git/static/js/787.e6fe0fcf.chunk.js",
-    "static/media/dice.png": "/profile.git/static/media/dice.13e1e6cf0b8debc9b4ab.png",
-    "index.html": "/profile.git/index.html",
-    "main.4f5ffc70.css.map": "/profile.git/static/css/main.4f5ffc70.css.map",
-    "main.a1ede5fe.js.map": "/profile.git/static/js/main.a1ede5fe.js.map",
-    "787.e6fe0fcf.chunk.js.map": "/profile.git/static/js/787.e6fe0fcf.chunk.js.map"
+    "main.css": "/profile/static/css/main.4f5ffc70.css",
+    "main.js": "/profile/static/js/main.8cef9a7c.js",
+    "static/js/787.e6fe0fcf.chunk.js": "/profile/static/js/787.e6fe0fcf.chunk.js",
+    "static/media/dice.png": "/profile/static/media/dice.13e1e6cf0b8debc9b4ab.png",
+    "index.html": "/profile/index.html",
+    "main.4f5ffc70.css.map": "/profile/static/css/main.4f5ffc70.css.map",
+    "main.8cef9a7c.js.map": "/profile/static/js/main.8cef9a7c.js.map",
+    "787.e6fe0fcf.chunk.js.map": "/profile/static/js/787.e6fe0fcf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f5ffc70.css",
-    "static/js/main.a1ede5fe.js"
+    "static/js/main.8cef9a7c.js"
   ]
 }
