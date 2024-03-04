@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 const Nav = ({ styles }) => {
 	const navigate = useNavigate();
 	return (
-		<div className={`flex gap-8  pl-32 ${styles ? "flex-col" : ""}`}>
+		<div className={`flex gap-4 lg:gap-10 pl-32 ${styles ? "flex-col" : ""}`}>
 			<div className=" w-28 ">
 				<button
 					onClick={() => navigate("/")}

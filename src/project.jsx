@@ -9,13 +9,14 @@ import number from "./assets/number.png";
 
 const Project = () => {
 	return (
-		<div className="bg-zinc-900  text-white h-full">
+		<div className="bg-zinc-900  text-white h-screen overflow-auto">
 			<div className="h-full">
 				<div className="text-center text-5xl font-bold pt-5 pb-5">
 					PORTFOLIO
 				</div>
-				<div className="flex pl-72  text-3xl pb-8">
-					<div className="gap-28 flex">
+				<div className="flex flex-col items-center  text-3xl pb-8">
+					<Nav />
+					<div className="gap-16 md:gap-48 flex pl-16">
 						<p className="button " style={{ "--color": "#f59e0b" }}>
 							Project
 							<span></span>
@@ -24,9 +25,6 @@ const Project = () => {
 							Cirtefcate
 							<span></span>
 						</p>
-					</div>
-					<div className="sticky">
-						<Nav styless={"test"} />
 					</div>
 				</div>
 				{/* <div className="pl-12"> */}
@@ -41,18 +39,17 @@ const Project = () => {
 										src={bank}
 										alt="img"
 									/>
-									<div className="pl-5 pb-2 pt-8">
-										<button className="pl-8 pr-5 rounded-lg hover:bg-amber-500  py-3 ">
-											Demo
-										</button>
-									</div>
 								</div>
 								<h1 className="text-center font-bold ">
 									Bank Management System
 								</h1>
-								<h2 className="py-3 font-bold text-emerald-500">
+								<a
+									className="text-emerald-500"
+									href="https://github.com/abeni3mul"
+									target="_blank"
+								>
 									GitHub
-								</h2>
+								</a>
 							</div>
 							<div className="flex gap-8">
 								<h2>Project: Website</h2>
@@ -61,8 +58,6 @@ const Project = () => {
 								<h2>Language: HTML, CSS, JS, SQL</h2>
 							</div>
 						</div>
-
-						<div className="pl-5 pb-2"></div>
 					</div>
 					<div className="  border border-amber-500  rounded-lg">
 						<div className="pl-5">
@@ -72,16 +67,15 @@ const Project = () => {
 									src={casino}
 									alt=""
 								/>
-								<div className="pl-5 pb-2 pt-8">
-									<button className="pl-8 pr-5 rounded-lg hover:bg-amber-500  py-3 ">
-										Demo
-									</button>
-								</div>
 							</div>
 							<h1 className="text-center font-bold">casino</h1>
-							<h2 className=" py-3 font-bold text-emerald-500">
+							<a
+								className="text-emerald-500"
+								href="https://github.com/abeni3mul"
+								target="_blank"
+							>
 								GitHub
-							</h2>
+							</a>
 							<div className="flex gap-8">
 								<h2>Project: Website</h2>
 							</div>
@@ -101,19 +95,18 @@ const Project = () => {
 										src={bms}
 										alt=""
 									/>
-									<div className="pl-5 pb-2 pt-8">
-										<button className="pl-8 pr-5 rounded-lg hover:bg-amber-500  py-3 ">
-											Demo
-										</button>
-									</div>
 								</div>
 
 								<h1 className="text-center font-bold">
 									Hospital Management System
 								</h1>
-								<h2 className="py-3 font-bold text-emerald-500">
+								<a
+									className="text-emerald-500"
+									href="https://github.com/abeni3mul"
+									target="_blank"
+								>
 									GitHub
-								</h2>
+								</a>
 							</div>
 							<div className="flex gap-8">
 								<h2>Project: Desktop App</h2>
@@ -134,18 +127,17 @@ const Project = () => {
 										src={balckjack}
 										alt=""
 									/>
-									<div className="pl-5 pb-2 pt-8">
-										<button className="pl-8 pr-5 rounded-lg hover:bg-amber-500  py-3 ">
-											Demo
-										</button>
-									</div>
 								</div>
 								<h1 className="text-center font-bold">
 									Black-Jack Game
 								</h1>
-								<h2 className="py-3 font-bold text-emerald-500">
+								<a
+									className="text-emerald-500"
+									href="https://github.com/abeni3mul"
+									target="_blank"
+								>
 									GitHub
-								</h2>
+								</a>
 							</div>
 							<div className="flex gap-8">
 								<h2>Project: Website</h2>
@@ -164,18 +156,17 @@ const Project = () => {
 										src={number}
 										alt=""
 									/>
-									<div className="pl-5 pb-2 pt-8">
-										<button className="pl-8 pr-5 rounded-lg hover:bg-amber-500  py-3 ">
-											Demo
-										</button>
-									</div>
 								</div>
 								<h1 className="text-center font-bold">
 									Number Prediction
 								</h1>
-								<h2 className="py-3 font-bold text-emerald-500">
+								<a
+									className="text-emerald-500"
+									href="https://github.com/abeni3mul"
+									target="_blank"
+								>
 									GitHub
-								</h2>
+								</a>
 							</div>
 							<div className="flex gap-8">
 								<h2>Project: Website</h2>
@@ -194,18 +185,17 @@ const Project = () => {
 										src={stock}
 										alt=""
 									/>
-									<div className="pl-5 pb-2 pt-8">
-										<button className="pl-8 pr-5 rounded-lg hover:bg-amber-500  py-3 ">
-											Demo
-										</button>
-									</div>
 								</div>
 								<h1 className="text-center font-bold">
 									Stock Market prediction
 								</h1>
-								<h2 className="py-3 font-bold text-emerald-500">
+								<a
+									className="text-emerald-500"
+									href="https://github.com/abeni3mul"
+									target="_blank"
+								>
 									GitHub
-								</h2>
+								</a>
 							</div>
 							<div className="flex gap-8">
 								<h2>Project: machine Learning</h2>

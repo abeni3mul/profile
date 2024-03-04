@@ -3,64 +3,59 @@ import Nav from "./nav";
 
 const About = () => {
 	return (
-		<div className=" bg-zinc-900 text-white pl-8">
-			{/* Personal Info Section */}
+		<div className=" bg-zinc-900 text-white pl-8 h-screen overflow-auto">
+			<h2 className="text-4xl md:text-5xl text-amber-500 font-bold mb-3 text-center  pt-5">
+				About Me
+			</h2>
+			<div className="flex flex-col  justify-center items-center pr-10 pt-2">
+				<Nav />
+			</div>
 
-			<div className="mb-6">
-				<h2 className="text-5xl font-bold mb-3 text-center pt-8">
-					About Me
-				</h2>
-
+			<div className="mb-8">
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
 					{/* Left Column */}
 					<div>
 						<div className="grid gap-4 font-semibold">
-							<h3 className="font-semibold text-2xl pl-12">
-								Pesronal Info
-							</h3>
+							<h3 className="font-semibold text-2xl ">Pesronal Info</h3>
 							<p>Full Name: Abenezer Legesse</p>
 							<p>Email: abenezer.legessem@gmail.com </p>
 							<p>Phone Number: +1(614)599-3864</p>
 
 							<a
+								className="text-emerald-500"
 								href="https://www.linkedin.com/in/abenezer-legesse-973803250"
 								target="_blank"
 							>
 								LinkedIn Profile
 							</a>
-
-							<p className="py-3 font-bold text-emerald-500">
-								{" "}
-								GitHub:{" "}
-							</p>
+							<a
+								className="text-emerald-500"
+								href="https://github.com/abeni3mul"
+								target="_blank"
+							>
+								GitHub
+							</a>
 						</div>
 					</div>
 					{/* Right Column */}
 					<div className="flex">
-						<div className="md:w-1/2 mt-4 md:mt-0 grid gap-4 font-semibold">
-							<h3 className=" text-2xl text-center">Education</h3>
+						<div className="md:w-1/2 md:mt-0 ">
+							<h3 className=" text-2xl">Education</h3>
 							<h1>
-								BSc in Computer Science at Southwest Minnesota
+								BSc in Computer Science at Southwest Minnesota State
 								University
 							</h1>
-							<h2>Additional Certifications:</h2>
-							<p className="pl-3">- Full Stack Developer</p>
-							<p className="pl-3">- Complete Python </p>
-							<p className="pl-3">- Complete SQL </p>
-						</div>
-						<div className="absolute right-0 pt-10">
-							<Nav styles="flex-col " />
 						</div>
 					</div>
 				</div>
 			</div>
 
 			{/* Skills Section */}
-			<section className="mb-6">
+			<section className="mb-6 ">
 				<h2 className="text-3xl text-center font-bold mb-3 py-5">
 					My Skills
 				</h2>
-				<div className="flex flex-wrap justify-around">
+				<div className=" flex justify-center gap-4 md:gap-28 pr-5  ">
 					{/* Skill Item */}
 					<div className="w-1/2 md:w-1/4 pt-2">
 						<div className="relative pt-1">
@@ -72,13 +67,13 @@ const About = () => {
 								</div>
 								<div className="text-right">
 									<span className="text-xs font-semibold inline-block text-yellow-600">
-										25%
+										85%
 									</span>
 								</div>
 							</div>
 							<div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-yellow-200">
 								<div
-									style={{ width: "25%" }}
+									style={{ width: "85%" }}
 									className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-500"
 								></div>
 							</div>
@@ -92,13 +87,13 @@ const About = () => {
 								</div>
 								<div className="text-right">
 									<span className="text-xs font-semibold inline-block text-yellow-600">
-										50%
+										75%
 									</span>
 								</div>
 							</div>
 							<div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-yellow-200">
 								<div
-									style={{ width: "50%" }}
+									style={{ width: "75%" }}
 									className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-500"
 								></div>
 							</div>
@@ -112,13 +107,13 @@ const About = () => {
 								</div>
 								<div className="text-right">
 									<span className="text-xs font-semibold inline-block text-yellow-600">
-										50%
+										70%
 									</span>
 								</div>
 							</div>
 							<div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-yellow-200">
 								<div
-									style={{ width: "50%" }}
+									style={{ width: "70%" }}
 									className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-500"
 								></div>
 							</div>
@@ -132,13 +127,13 @@ const About = () => {
 								</div>
 								<div className="text-right">
 									<span className="text-xs font-semibold inline-block text-yellow-600">
-										50%
+										60%
 									</span>
 								</div>
 							</div>
 							<div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-yellow-200">
 								<div
-									style={{ width: "50%" }}
+									style={{ width: "60%" }}
 									className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-500"
 								></div>
 							</div>
@@ -154,13 +149,13 @@ const About = () => {
 								</div>
 								<div className="text-right">
 									<span className="text-xs font-semibold inline-block text-yellow-600">
-										50%
+										70%
 									</span>
 								</div>
 							</div>
 							<div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-yellow-200">
 								<div
-									style={{ width: "50%" }}
+									style={{ width: "70%" }}
 									className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-500"
 								></div>
 							</div>
@@ -174,13 +169,13 @@ const About = () => {
 								</div>
 								<div className="text-right">
 									<span className="text-xs font-semibold inline-block text-yellow-600">
-										50%
+										85%
 									</span>
 								</div>
 							</div>
 							<div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-yellow-200">
 								<div
-									style={{ width: "50%" }}
+									style={{ width: "85%" }}
 									className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-500"
 								></div>
 							</div>
@@ -194,13 +189,13 @@ const About = () => {
 								</div>
 								<div className="text-right">
 									<span className="text-xs font-semibold inline-block text-yellow-600">
-										50%
+										70%
 									</span>
 								</div>
 							</div>
 							<div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-yellow-200">
 								<div
-									style={{ width: "50%" }}
+									style={{ width: "70%" }}
 									className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-500"
 								></div>
 							</div>
@@ -214,13 +209,13 @@ const About = () => {
 								</div>
 								<div className="text-right">
 									<span className="text-xs font-semibold inline-block text-yellow-600">
-										50%
+										75%
 									</span>
 								</div>
 							</div>
 							<div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-yellow-200">
 								<div
-									style={{ width: "50%" }}
+									style={{ width: "75%" }}
 									className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-500"
 								></div>
 							</div>

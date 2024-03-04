@@ -24,8 +24,6 @@ const AboutModal = ({ isOpen, toggleModal }) => {
 				<div className="overflow-scroll">
 					<About />
 				</div>
-
-				{/* <form onCreateAccount={handleCreateAccount}></form> */}
 			</div>
 		</div>
 	);
@@ -34,48 +32,41 @@ const AboutModal = ({ isOpen, toggleModal }) => {
 function App() {
 	const [isAboutModalOpen, setAboutModalOpen] = useState(false);
 
-	// Function to toggle the login modal's visibility
 	const toggleAboutModal = () => {
 		setAboutModalOpen(!isAboutModalOpen);
 	};
 
 	return (
-		<div className="flex p-16 bg-zinc-900">
-			<div>
-				<img
-					className=" rounded-lg w-4/5 pt-40 bg-black"
-					src={dice}
-					alt="image"
-				/>
-			</div>
-			<div>
-				<div className="pt-40">
-					<div className="pl-8 pb-24">
-						<h1 className="text-5xl pl-8 text-amber-500 font-bold">
-							- ABENEZER LEGESSE -
-						</h1>
-						<h1 className="text-4xl text-white pl-28 pt-4  font-bold">
-							SOFTWARE ENGINEER
-						</h1>
-						<h2 className="pl-28 py-8 text-white">
-							I am a passionate and detail-oriented software engineer
-							with <br />
-							Front-end and Back-end development skills. I'm committed to
-							<br /> building efficient, user-friendly applications and
-							constantly
-							<br />
-							exploring new technologies to expand my expertise.
-						</h2>
-						<div className="pl-28">
-							<div className="  p-1  text-white w-48  hover:bg-amber-500  border border-amber-500  rounded-full  ">
-								<button className="pl-12 " onClick={toggleAboutModal}>
-									About me{" "}
-								</button>
-							</div>
+		<div className="flex flex-col lg:flex-row p-5 pb-16 bg-zinc-900 h-screen overflow-auto">
+			<img
+				className="rounded-full lg:rounded-lg aspect-square bg-black border border-amber-500"
+				src={dice}
+				alt="image"
+			/>
+
+			<div className="flex flex-col justify-center items-center gap-4">
+				<div className="flex flex-col items-center justify-center">
+					<h1 className="text-2xl md:text-5xl text-amber-500 font-bold">
+						- ABENEZER LEGESSE -
+					</h1>
+					<h1 className="text-1xl md:text-4xl text-white   font-bold">
+						SOFTWARE ENGINEER
+					</h1>
+					<h2 className="  text-white text-center mx-4 lg:mx-8 pt-2">
+						I am a passionate and detail-oriented software engineer with
+						Front-end and Back-end development skills. I'm committed to
+						building efficient, user-friendly applications and constantly
+						exploring new technologies to expand my expertise.
+					</h2>
+					<div className=" flex justify-center items-center pt-5 ">
+						<div className=" flex justify-center text-white w-48  hover:bg-amber-500  border border-amber-500  rounded-full  ">
+							<button className="text-center" onClick={toggleAboutModal}>
+								About me{" "}
+							</button>
 						</div>
 					</div>
-					<Nav />
 				</div>
+				<Nav />
 			</div>
 			<AboutModal isOpen={isAboutModalOpen} toggleModal={toggleAboutModal} />
 		</div>
