@@ -6,7 +6,8 @@ import React, { Fragment, useState } from "react";
 import dice from "./assets/dice.png";
 import "./button.css";
 import link from "./assets/link.png";
-import About from "./about";
+import git from "./assets/git.png";
+
 import { useNavigate } from "react-router-dom";
 import Nav from "./nav";
 
@@ -27,33 +28,38 @@ const AboutModal = ({ isOpen, toggleModal }) => {
 						{/* Left Column */}
 						<div>
 							<div className="grid gap-4 font-semibold">
-								<h3 className="font-semibold text-2xl ">
+								<h3 className="font-semibold text-2xl text-amber-500">
 									Pesronal Info
 								</h3>
 								<p>Full Name: Abenezer Legesse</p>
 								<p>Email: abenezer.legessem@gmail.com </p>
 								<p>Phone Number: +1(614)599-3864</p>
 
-								<a
-									className="text-emerald-500"
-									href="https://www.linkedin.com/in/abenezer-legesse-973803250"
-									target="_blank"
-								>
-									<img src="link" alt="" />
-								</a>
-								<a
-									className="text-emerald-500"
-									href="https://github.com/abeni3mul"
-									target="_blank"
-								>
-									GitHub
-								</a>
+								<div className="flex gap-9">
+									<a
+										className="text-emerald-500"
+										href="https://www.linkedin.com/in/abenezer-legesse-973803250"
+										target="_blank"
+									>
+										<img className="h-9" src={link} alt="" />
+									</a>
+									<a
+										className="text-emerald-500"
+										href="https://github.com/abeni3mul"
+										target="_blank"
+									>
+										{" "}
+										<img className="h-9" src={git} alt="" />
+									</a>
+								</div>
 							</div>
 						</div>
 						{/* Right Column */}
 						<div className="flex">
 							<div className="md:w-1/2 md:mt-0 ">
-								<h3 className=" text-2xl">Education</h3>
+								<h3 className="font-semibold text-2xl text-amber-500">
+									Education
+								</h3>
 								<h1>
 									BSc in Computer Science at Southwest Minnesota State
 									University
