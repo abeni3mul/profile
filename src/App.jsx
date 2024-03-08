@@ -7,10 +7,9 @@ import dice from "./assets/dice.png";
 import "./button.css";
 import link from "./assets/link.png";
 import git from "./assets/git.png";
-
-import { useNavigate } from "react-router-dom";
+import { Form, useNavigate } from "react-router-dom";
 import Nav from "./nav";
-
+import photo8 from "./assets/photo8.png";
 const AboutModal = ({ isOpen, toggleModal }) => {
 	if (!isOpen) return null;
 
@@ -84,7 +83,7 @@ function App() {
 		<div className="flex flex-col lg:flex-row p-5 pb-16 bg-zinc-900 h-screen overflow-auto">
 			<img
 				className="rounded-full lg:rounded-lg aspect-square bg-black border border-amber-500"
-				src={dice}
+				src={photo8}
 				alt="image"
 			/>
 
