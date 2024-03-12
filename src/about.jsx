@@ -302,15 +302,6 @@ const About = () => {
 									Spring Tool Suite, Sublime Text, WinSCP, and Putty.
 								</p>
 							</div>
-							<div className="pt-5 pb-12">
-								<h1 className="font-bold">Professional Experience:</h1>
-								<p>
-									Includes internships at 3M and United Healthgroup,
-									with hands-on experience in microservices
-									architecture, cloud services, and container
-									technologies.
-								</p>
-							</div>
 						</div>
 						{/* ... */}
 					</div>
