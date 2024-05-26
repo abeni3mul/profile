@@ -22,7 +22,7 @@ const Project = () => {
 							<span></span>
 						</p>
 						<p className="button" style={{ "--color": "#f59e0b" }}>
-							Cirtefcate
+							Certificate
 							<span></span>
 						</p>
 					</div>
